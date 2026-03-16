@@ -1,0 +1,2419 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20253.26.0206.0336                               -->
+<workbook original-version='18.1' source-build='2025.3.3 (20253.26.0206.0336)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='menu' inline='true' name='federated.1m3vs6r08m8u6417apa460tfcg0n' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='menu' name='textscan.15io1890byb2au13wbeno1r1pich'>
+            <connection class='textscan' cleaning='yes' compat='no' csvFile='C:/Users/Student/workspace/PowerBI/menu.csv' dataRefreshTime='' directory='C:/Users/Student/workspace/PowerBI' filename='C:/Users/Student/AppData/Local/Temp/TableauTemp/0gee8dj0mhydwj1641ivv12cpj0h/menu.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.15io1890byb2au13wbeno1r1pich' name='menu.csv' table='[C:\Users\Student\workspace\PowerBI\menu#csv]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:X261:no:A1:X261:1' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Category' ordinal='0' />
+            <column datatype='string' name='Item' ordinal='1' />
+            <column datatype='string' name='Serving Size' ordinal='2' />
+            <column datatype='integer' name='Calories' ordinal='3' />
+            <column datatype='integer' name='Calories from Fat' ordinal='4' />
+            <column datatype='real' name='Total Fat' ordinal='5' />
+            <column datatype='integer' name='Total Fat (% Daily Value)' ordinal='6' />
+            <column datatype='real' name='Saturated Fat' ordinal='7' />
+            <column datatype='integer' name='Saturated Fat (% Daily Value)' ordinal='8' />
+            <column datatype='real' name='Trans Fat' ordinal='9' />
+            <column datatype='integer' name='Cholesterol' ordinal='10' />
+            <column datatype='integer' name='Cholesterol (% Daily Value)' ordinal='11' />
+            <column datatype='integer' name='Sodium' ordinal='12' />
+            <column datatype='integer' name='Sodium (% Daily Value)' ordinal='13' />
+            <column datatype='integer' name='Carbohydrates' ordinal='14' />
+            <column datatype='integer' name='Carbohydrates (% Daily Value)' ordinal='15' />
+            <column datatype='integer' name='Dietary Fiber' ordinal='16' />
+            <column datatype='integer' name='Dietary Fiber (% Daily Value)' ordinal='17' />
+            <column datatype='integer' name='Sugars' ordinal='18' />
+            <column datatype='integer' name='Protein' ordinal='19' />
+            <column datatype='integer' name='Vitamin A (% Daily Value)' ordinal='20' />
+            <column datatype='integer' name='Vitamin C (% Daily Value)' ordinal='21' />
+            <column datatype='integer' name='Calcium (% Daily Value)' ordinal='22' />
+            <column datatype='integer' name='Iron (% Daily Value)' ordinal='23' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[menu.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:X261:no:A1:X261:1&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[menu.csv]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Item</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Item]</local-name>
+            <parent-name>[menu.csv]</parent-name>
+            <remote-alias>Item</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Serving Size</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Serving Size]</local-name>
+            <parent-name>[menu.csv]</parent-name>
+            <remote-alias>Serving Size</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Calories</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Calories]</local-name>
+            <parent-name>[menu.csv]</parent-name>
+            <remote-alias>Calories</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Calories from Fat</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Calories from Fat]</local-name>
+            <parent-name>[menu.csv]</parent-name>
+            <remote-alias>Calories from Fat</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Fat</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Fat]</local-name>
+            <parent-name>[menu.csv]</parent-name>
+            <remote-alias>Total Fat</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Fat (% Daily Value)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Fat (% Daily Value)]</local-name>
+            <parent-name>[menu.csv]</parent-name>
+            <remote-alias>Total Fat (% Daily Value)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Saturated Fat</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Saturated Fat]</local-name>
+            <parent-name>[menu.csv]</parent-name>
+            <remote-alias>Saturated Fat</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Saturated Fat (% Daily Value)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Saturated Fat (% Daily Value)]</local-name>
+            <parent-name>[menu.csv]</parent-name>
+            <remote-alias>Saturated Fat (% Daily Value)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Trans Fat</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Trans Fat]</local-name>
+            <parent-name>[menu.csv]</parent-name>
+            <remote-alias>Trans Fat</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cholesterol</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cholesterol]</local-name>
+            <parent-name>[menu.csv]</parent-name>
+            <remote-alias>Cholesterol</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cholesterol (% Daily Value)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cholesterol (% Daily Value)]</local-name>
+            <parent-name>[menu.csv]</parent-name>
+            <remote-alias>Cholesterol (% Daily Value)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sodium</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sodium]</local-name>
+            <parent-name>[menu.csv]</parent-name>
+            <remote-alias>Sodium</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sodium (% Daily Value)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sodium (% Daily Value)]</local-name>
+            <parent-name>[menu.csv]</parent-name>
+            <remote-alias>Sodium (% Daily Value)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Carbohydrates</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Carbohydrates]</local-name>
+            <parent-name>[menu.csv]</parent-name>
+            <remote-alias>Carbohydrates</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Carbohydrates (% Daily Value)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Carbohydrates (% Daily Value)]</local-name>
+            <parent-name>[menu.csv]</parent-name>
+            <remote-alias>Carbohydrates (% Daily Value)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dietary Fiber</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dietary Fiber]</local-name>
+            <parent-name>[menu.csv]</parent-name>
+            <remote-alias>Dietary Fiber</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dietary Fiber (% Daily Value)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dietary Fiber (% Daily Value)]</local-name>
+            <parent-name>[menu.csv]</parent-name>
+            <remote-alias>Dietary Fiber (% Daily Value)</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sugars</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sugars]</local-name>
+            <parent-name>[menu.csv]</parent-name>
+            <remote-alias>Sugars</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Protein</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Protein]</local-name>
+            <parent-name>[menu.csv]</parent-name>
+            <remote-alias>Protein</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vitamin A (% Daily Value)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Vitamin A (% Daily Value)]</local-name>
+            <parent-name>[menu.csv]</parent-name>
+            <remote-alias>Vitamin A (% Daily Value)</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vitamin C (% Daily Value)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Vitamin C (% Daily Value)]</local-name>
+            <parent-name>[menu.csv]</parent-name>
+            <remote-alias>Vitamin C (% Daily Value)</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Calcium (% Daily Value)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Calcium (% Daily Value)]</local-name>
+            <parent-name>[menu.csv]</parent-name>
+            <remote-alias>Calcium (% Daily Value)</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Iron (% Daily Value)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Iron (% Daily Value)]</local-name>
+            <parent-name>[menu.csv]</parent-name>
+            <remote-alias>Iron (% Daily Value)</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Protein per 100 Calories' datatype='real' name='[Calculation_0990154748788736]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([Protein] / [Calories]) * 100' />
+      </column>
+      <column caption='High Calorie Category' datatype='string' name='[Calculation_1782353189826560]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF AVG([Calories]) &gt; WINDOW_AVG(AVG([Calories])) THEN&#13;&#10;    &quot;High Calorie&quot;&#13;&#10;ELSE&#13;&#10;    &quot;Not High&quot;&#13;&#10;END'>
+          <table-calc ordering-field='[federated.1m3vs6r08m8u6417apa460tfcg0n].[Category]' ordering-type='Field' />
+        </calculation>
+      </column>
+      <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Item]' role='dimension' type='nominal' />
+      <column caption='menu.csv' datatype='table' name='[__tableau_internal_object_id__].[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]' role='measure' type='quantitative' />
+      <column-instance column='[Item]' derivation='None' name='[none:Item:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Student/AppData/Local/Temp/TableauTemp/#TableauTemp_0ndwsay0c9b41n18oyt5u10pxhsu.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='03/02/2026 04:06:37 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Category</remote-alias>
+              <ordinal>0</ordinal>
+              <family>menu.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Item</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Item]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Item</remote-alias>
+              <ordinal>1</ordinal>
+              <family>menu.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>260</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Serving Size</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Serving Size]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Serving Size</remote-alias>
+              <ordinal>2</ordinal>
+              <family>menu.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>107</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Calories</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Calories]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Calories</remote-alias>
+              <ordinal>3</ordinal>
+              <family>menu.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>78</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Calories from Fat</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Calories from Fat]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Calories from Fat</remote-alias>
+              <ordinal>4</ordinal>
+              <family>menu.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>48</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Fat</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Total Fat]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Fat</remote-alias>
+              <ordinal>5</ordinal>
+              <family>menu.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Fat (% Daily Value)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total Fat (% Daily Value)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Fat (% Daily Value)</remote-alias>
+              <ordinal>6</ordinal>
+              <family>menu.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>63</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Saturated Fat</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Saturated Fat]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Saturated Fat</remote-alias>
+              <ordinal>7</ordinal>
+              <family>menu.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Saturated Fat (% Daily Value)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Saturated Fat (% Daily Value)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Saturated Fat (% Daily Value)</remote-alias>
+              <ordinal>8</ordinal>
+              <family>menu.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>74</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Trans Fat</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Trans Fat]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Trans Fat</remote-alias>
+              <ordinal>9</ordinal>
+              <family>menu.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Cholesterol</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Cholesterol]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Cholesterol</remote-alias>
+              <ordinal>10</ordinal>
+              <family>menu.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>35</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Cholesterol (% Daily Value)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Cholesterol (% Daily Value)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Cholesterol (% Daily Value)</remote-alias>
+              <ordinal>11</ordinal>
+              <family>menu.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>48</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sodium</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Sodium]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sodium</remote-alias>
+              <ordinal>12</ordinal>
+              <family>menu.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>111</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sodium (% Daily Value)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Sodium (% Daily Value)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sodium (% Daily Value)</remote-alias>
+              <ordinal>13</ordinal>
+              <family>menu.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>65</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Carbohydrates</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Carbohydrates]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Carbohydrates</remote-alias>
+              <ordinal>14</ordinal>
+              <family>menu.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>84</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Carbohydrates (% Daily Value)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Carbohydrates (% Daily Value)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Carbohydrates (% Daily Value)</remote-alias>
+              <ordinal>15</ordinal>
+              <family>menu.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>40</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Dietary Fiber</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Dietary Fiber]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Dietary Fiber</remote-alias>
+              <ordinal>16</ordinal>
+              <family>menu.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Dietary Fiber (% Daily Value)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Dietary Fiber (% Daily Value)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Dietary Fiber (% Daily Value)</remote-alias>
+              <ordinal>17</ordinal>
+              <family>menu.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sugars</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Sugars]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sugars</remote-alias>
+              <ordinal>18</ordinal>
+              <family>menu.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>83</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Protein</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Protein]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Protein</remote-alias>
+              <ordinal>19</ordinal>
+              <family>menu.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>42</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Vitamin A (% Daily Value)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Vitamin A (% Daily Value)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Vitamin A (% Daily Value)</remote-alias>
+              <ordinal>20</ordinal>
+              <family>menu.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Vitamin C (% Daily Value)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Vitamin C (% Daily Value)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Vitamin C (% Daily Value)</remote-alias>
+              <ordinal>21</ordinal>
+              <family>menu.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Calcium (% Daily Value)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Calcium (% Daily Value)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Calcium (% Daily Value)</remote-alias>
+              <ordinal>22</ordinal>
+              <family>menu.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Iron (% Daily Value)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Iron (% Daily Value)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Iron (% Daily Value)</remote-alias>
+              <ordinal>23</ordinal>
+              <family>menu.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[menu.csv_1BFDB773D0844DD194ACD905D29AC7F1]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Item:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Blueberry Pomegranate Smoothie (Small)&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Chicken McNuggets (20 piece)&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Diet Coke (Child)&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Frappé Caramel (Small)&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;French Vanilla Latte (Medium)&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Iced Mocha (Small)&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Jalapeño Double&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;McDouble&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;McFlurry with M&amp;M’s Candies (Medium)&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Premium Grilled Chicken Club Sandwich&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Sausage McMuffin&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Sausage, Egg &amp; Cheese McGriddles with Egg Whites&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Sweet Tea (Large)&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Bacon, Egg &amp; Cheese Bagel&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Caramel Mocha (Small)&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Double Quarter Pounder with Cheese&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Fruit &amp; Maple Oatmeal&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Hazelnut Latte (Large)&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Hotcakes&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Iced Coffee with Sugar Free French Vanilla Syrup (Small)&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;McRib&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Nonfat French Vanilla Latte (Small)&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Premium Bacon Ranch Salad with Grilled Chicken&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Regular Iced Coffee (Small)&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Sausage Burrito&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Sprite (Large)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Bacon McDouble&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Caramel Iced Coffee (Medium)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Cheeseburger&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Coffee (Large)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Frappé Mocha (Medium)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Hot Chocolate with Nonfat Milk (Large)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Iced Mocha (Large)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Iced Mocha with Nonfat Milk (Medium)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;McChicken&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Medium French Fries&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Nonfat Latte (Medium)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Premium Southwest Salad (without Chicken)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Vanilla Shake (Large)&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Bacon, Egg &amp; Cheese Biscuit (Regular Biscuit)&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Big Breakfast with Hotcakes (Regular Biscuit)&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Coca-Cola Classic (Medium)&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Diet Dr Pepper (Child)&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Double Cheeseburger&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Frappé Chocolate Chip (Medium)&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;French Vanilla Iced Coffee (Small)&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Hamburger&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;McFlurry with Reese&apos;s Peanut Butter Cups (Medium)&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Nonfat Latte with Sugar Free French Vanilla Syrup (Small)&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Sausage, Egg &amp; Cheese McGriddles&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Shamrock Shake (Medium)&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Steak &amp; Egg Biscuit (Regular Biscuit)&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Apple Slices&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Big Breakfast with Egg Whites (Large Biscuit)&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Chocolate Shake (Medium)&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Diet Coke (Large)&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Frappé Mocha (Small)&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Fruit &apos;n Yogurt Parfait&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Hazelnut Latte (Medium)&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Kids French Fries&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Nonfat Caramel Mocha (Medium)&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Premium McWrap Chicken &amp; Bacon (Grilled Chicken)&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Premium Southwest Salad with Crispy Chicken&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Quarter Pounder with Cheese&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Sausage McMuffin with Egg&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;1\% Low Fat Milk Jug&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Big Breakfast with Hotcakes and Egg Whites (Large Biscuit)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Blueberry Pomegranate Smoothie (Medium)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Chicken McNuggets (4 piece)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Coffee (Medium)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Filet-O-Fish&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Hazelnut Iced Coffee (Medium)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Hotcakes and Sausage&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Nonfat Caramel Latte (Large)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Premium McWrap Chicken Sweet Chili (Crispy Chicken)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Quarter Pounder with Bacon Habanero Ranch&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Strawberry Banana Smoothie (Medium)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Strawberry Shake (Small)&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Big Breakfast (Large Biscuit)&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Big Mac&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Chocolate Chip Cookie&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Hazelnut Iced Coffee (Small)&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Hot Chocolate (Large)&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Iced Tea (Medium)&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Latte (Small)&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;McFlurry with M&amp;M’s Candies (Small)&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;McFlurry with Oreo Cookies (Snack)&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Minute Maid 100\% Apple Juice Box&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Premium Bacon Ranch Salad with Crispy Chicken&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Premium McWrap Southwest Chicken (Crispy Chicken)&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Southern Style Crispy Chicken Sandwich&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Bacon Clubhouse Crispy Chicken Sandwich&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Blueberry Pomegranate Smoothie (Large)&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Caramel Mocha (Medium)&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Chocolate Shake (Large)&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Frappé Caramel (Large)&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Hash Brown&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Honey Mustard Snack Wrap (Grilled Chicken)&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Iced Nonfat Caramel Mocha (Small)&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Mocha with Nonfat Milk (Large)&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Mocha with Nonfat Milk (Medium)&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Nonfat Latte (Small)&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Sausage McMuffin with Egg Whites&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Sprite (Medium)&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Bacon Cheddar McChicken&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Bacon Clubhouse Grilled Chicken Sandwich&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Big Breakfast with Hotcakes and Egg Whites (Regular Biscuit)&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Caramel Iced Coffee (Large)&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Dr Pepper (Medium)&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Hot Fudge Sundae&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Iced Tea (Child)&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Latte (Large)&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Mocha (Medium)&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Mocha with Nonfat Milk (Small)&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Oatmeal Raisin Cookie&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Side Salad&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Vanilla Shake (Small)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Bacon, Egg &amp; Cheese Biscuit with Egg Whites (Large Biscuit)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Big Breakfast (Regular Biscuit)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Caramel Latte (Small)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Coffee (Small)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Frappé Chocolate Chip (Large)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Iced Caramel Mocha (Small)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Mango Pineapple Smoothie (Medium)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;McFlurry with Oreo Cookies (Medium)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Nonfat Hazelnut Latte (Large)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Premium Crispy Chicken Classic Sandwich&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Premium Grilled Chicken Classic Sandwich&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Steak &amp; Egg McMuffin&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Sweet Tea (Medium)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Bacon Clubhouse Burger&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Bacon, Egg &amp; Cheese McGriddles&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Caramel Latte (Medium)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Chicken McNuggets (40 piece)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Coca-Cola Classic (Small)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Diet Dr Pepper (Large)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Iced Coffee with Sugar Free French Vanilla Syrup (Medium)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Iced Mocha (Medium)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Minute Maid Orange Juice (Large)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Nonfat Caramel Latte (Small)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Premium McWrap Chicken Sweet Chili (Grilled Chicken)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Southern Style Chicken Biscuit (Large Biscuit)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Vanilla Shake (Medium)&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Baked Apple Pie&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Chipotle BBQ Snack Wrap (Crispy Chicken)&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Diet Dr Pepper (Medium)&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Dr Pepper (Child)&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Iced Mocha with Nonfat Milk (Large)&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Latte with Sugar Free French Vanilla Syrup (Medium)&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Mocha (Large)&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Nonfat French Vanilla Latte (Medium)&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Nonfat Latte with Sugar Free French Vanilla Syrup (Medium)&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Premium Crispy Chicken Club Sandwich&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Sausage Biscuit (Regular Biscuit)&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Strawberry Banana Smoothie (Small)&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Strawberry Shake (Large)&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Big Breakfast with Egg Whites (Regular Biscuit)&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Caramel Iced Coffee (Small)&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Cinnamon Melts&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Dr Pepper (Small)&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Hot Caramel Sundae&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Iced Tea (Large)&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Latte with Sugar Free French Vanilla Syrup (Large)&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;McFlurry with Oreo Cookies (Small)&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Nonfat French Vanilla Latte (Large)&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Premium McWrap Chicken &amp; Ranch (Grilled Chicken)&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Sausage Biscuit with Egg (Large Biscuit)&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Sausage Biscuit with Egg (Regular Biscuit)&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Steak, Egg &amp; Cheese Bagel&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Bacon, Egg &amp; Cheese Bagel with Egg Whites&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Bacon, Egg &amp; Cheese Biscuit with Egg Whites (Regular Biscuit)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Big Breakfast with Hotcakes (Large Biscuit)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Caramel Latte (Large)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Fruit &amp; Maple Oatmeal without Brown Sugar&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Iced Coffee with Sugar Free French Vanilla Syrup (Large)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Iced Tea (Small)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Nonfat Caramel Mocha (Small)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Premium Bacon Ranch Salad (without Chicken)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Premium McWrap Chicken &amp; Ranch (Crispy Chicken)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Regular Iced Coffee (Large)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Sausage Biscuit (Large Biscuit)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Sprite (Child)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Bacon Buffalo Ranch McChicken&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Chocolate Shake (Small)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Coca-Cola Classic (Child)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Diet Coke (Medium)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Hazelnut Latte (Small)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Iced Caramel Mocha (Medium)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Iced Nonfat Caramel Mocha (Medium)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Nonfat Latte with Sugar Free French Vanilla Syrup (Large)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Premium McWrap Chicken &amp; Bacon (Crispy Chicken)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Ranch Snack Wrap (Crispy Chicken)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Ranch Snack Wrap (Grilled Chicken)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Small French Fries&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Strawberry Banana Smoothie (Large)&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Caramel Mocha (Large)&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Chicken McNuggets (10 piece)&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Daily Double&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Dasani Water Bottle&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Honey Mustard Snack Wrap (Crispy Chicken)&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Iced Caramel Mocha (Large)&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Iced Nonfat Caramel Mocha (Large)&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Mango Pineapple Smoothie (Small)&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Minute Maid Orange Juice (Medium)&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Premium Grilled Chicken Ranch BLT Sandwich&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Premium McWrap Southwest Chicken (Grilled Chicken)&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Regular Iced Coffee (Medium)&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Strawberry Shake (Medium)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Frappé Mocha (Large)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;French Vanilla Latte (Small)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Hot Chocolate (Small)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Hot Chocolate with Nonfat Milk (Small)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Kids Ice Cream Cone&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Large French Fries&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Nonfat Caramel Latte (Medium)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Nonfat Latte (Large)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Premium Crispy Chicken Ranch BLT Sandwich&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Quarter Pounder with Bacon &amp; Cheese&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Sausage Biscuit with Egg Whites (Regular Biscuit)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Sprite (Small)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Sweet Tea (Small)&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Diet Dr Pepper (Small)&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Dr Pepper (Large)&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Fat Free Chocolate Milk Jug&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;French Vanilla Latte (Large)&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Hazelnut Iced Coffee (Large)&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Hot Chocolate (Medium)&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Hot Chocolate with Nonfat Milk (Medium)&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;McFlurry with M&amp;M’s Candies (Snack)&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;McFlurry with Reese&apos;s Peanut Butter Cups (Snack)&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Minute Maid Orange Juice (Small)&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Nonfat Caramel Mocha (Large)&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Nonfat Hazelnut Latte (Small)&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Quarter Pounder Deluxe&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Bacon, Egg &amp; Cheese Biscuit (Large Biscuit)&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Bacon, Egg &amp; Cheese McGriddles with Egg Whites&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Chicken McNuggets (6 piece)&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Coca-Cola Classic (Large)&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Diet Coke (Small)&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Egg McMuffin&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Egg White Delight&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Frappé Chocolate Chip (Small)&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;French Vanilla Iced Coffee (Large)&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Iced Mocha with Nonfat Milk (Small)&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Sausage McGriddles&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Southern Style Chicken Biscuit (Regular Biscuit)&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Strawberry Sundae&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Buffalo Ranch McChicken&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Chipotle BBQ Snack Wrap (Grilled Chicken)&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Frappé Caramel (Medium)&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;French Vanilla Iced Coffee (Medium)&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Latte (Medium)&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Latte with Sugar Free French Vanilla Syrup (Small)&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Mango Pineapple Smoothie (Large)&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Mocha (Small)&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Nonfat Hazelnut Latte (Medium)&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Premium Southwest Salad with Grilled Chicken&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Sausage Biscuit with Egg Whites (Large Biscuit)&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Shamrock Shake (Large)&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Sweet Tea (Child)&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='menu.csv' id='menu.csv_1BFDB773D0844DD194ACD905D29AC7F1'>
+            <properties context=''>
+              <relation connection='textscan.15io1890byb2au13wbeno1r1pich' name='menu.csv' table='[C:\Users\Student\workspace\PowerBI\menu#csv]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:X261:no:A1:X261:1' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Category' ordinal='0' />
+                  <column datatype='string' name='Item' ordinal='1' />
+                  <column datatype='string' name='Serving Size' ordinal='2' />
+                  <column datatype='integer' name='Calories' ordinal='3' />
+                  <column datatype='integer' name='Calories from Fat' ordinal='4' />
+                  <column datatype='real' name='Total Fat' ordinal='5' />
+                  <column datatype='integer' name='Total Fat (% Daily Value)' ordinal='6' />
+                  <column datatype='real' name='Saturated Fat' ordinal='7' />
+                  <column datatype='integer' name='Saturated Fat (% Daily Value)' ordinal='8' />
+                  <column datatype='real' name='Trans Fat' ordinal='9' />
+                  <column datatype='integer' name='Cholesterol' ordinal='10' />
+                  <column datatype='integer' name='Cholesterol (% Daily Value)' ordinal='11' />
+                  <column datatype='integer' name='Sodium' ordinal='12' />
+                  <column datatype='integer' name='Sodium (% Daily Value)' ordinal='13' />
+                  <column datatype='integer' name='Carbohydrates' ordinal='14' />
+                  <column datatype='integer' name='Carbohydrates (% Daily Value)' ordinal='15' />
+                  <column datatype='integer' name='Dietary Fiber' ordinal='16' />
+                  <column datatype='integer' name='Dietary Fiber (% Daily Value)' ordinal='17' />
+                  <column datatype='integer' name='Sugars' ordinal='18' />
+                  <column datatype='integer' name='Protein' ordinal='19' />
+                  <column datatype='integer' name='Vitamin A (% Daily Value)' ordinal='20' />
+                  <column datatype='integer' name='Vitamin C (% Daily Value)' ordinal='21' />
+                  <column datatype='integer' name='Calcium (% Daily Value)' ordinal='22' />
+                  <column datatype='integer' name='Iron (% Daily Value)' ordinal='23' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Top Highest Calorie Item</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='menu' name='federated.1m3vs6r08m8u6417apa460tfcg0n' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1m3vs6r08m8u6417apa460tfcg0n'>
+            <column datatype='integer' name='[Calories]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Item]' role='dimension' type='nominal' />
+            <column-instance column='[Item]' derivation='None' name='[none:Item:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calories]' derivation='Sum' name='[sum:Calories:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.1m3vs6r08m8u6417apa460tfcg0n].[none:Item:nk]' direction='DESC' using='[federated.1m3vs6r08m8u6417apa460tfcg0n].[sum:Calories:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1m3vs6r08m8u6417apa460tfcg0n].[none:Item:nk]</rows>
+        <cols>[federated.1m3vs6r08m8u6417apa460tfcg0n].[sum:Calories:qk]</cols>
+      </table>
+      <simple-id uuid='{6A87961C-D6DE-4294-93D1-8369C02EB485}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000'>Top 10 Highest Protein (per 100 calories)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='menu' name='federated.1m3vs6r08m8u6417apa460tfcg0n' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1m3vs6r08m8u6417apa460tfcg0n'>
+            <column caption='Protein per 100 Calories' datatype='real' name='[Calculation_0990154748788736]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Protein] / [Calories]) * 100' />
+            </column>
+            <column datatype='integer' name='[Calories]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Item]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Protein]' role='measure' type='quantitative' />
+            <column-instance column='[Item]' derivation='None' name='[none:Item:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_0990154748788736]' derivation='Sum' name='[sum:Calculation_0990154748788736:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.1m3vs6r08m8u6417apa460tfcg0n].[none:Item:nk]' direction='DESC' using='[federated.1m3vs6r08m8u6417apa460tfcg0n].[sum:Calculation_0990154748788736:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1m3vs6r08m8u6417apa460tfcg0n].[none:Item:nk]</rows>
+        <cols>[federated.1m3vs6r08m8u6417apa460tfcg0n].[sum:Calculation_0990154748788736:qk]</cols>
+      </table>
+      <simple-id uuid='{CDCE230E-9473-4593-A347-EF9897D88D0F}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='menu' name='federated.1m3vs6r08m8u6417apa460tfcg0n' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1m3vs6r08m8u6417apa460tfcg0n'>
+            <column datatype='integer' name='[Calories]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Item]' role='dimension' type='nominal' />
+            <column-instance column='[Calories]' derivation='Avg' name='[avg:Calories:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Item]' derivation='Count' name='[cnt:Item:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1m3vs6r08m8u6417apa460tfcg0n].[avg:Calories:qk]' />
+              <size column='[federated.1m3vs6r08m8u6417apa460tfcg0n].[cnt:Item:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{9699DA8E-9616-4593-BCD9-16E86BE0213E}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Avg Cal and Protein by Item and Category </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='menu' name='federated.1m3vs6r08m8u6417apa460tfcg0n' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1m3vs6r08m8u6417apa460tfcg0n'>
+            <column datatype='integer' name='[Calories]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Item]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Protein]' role='measure' type='quantitative' />
+            <column-instance column='[Calories]' derivation='Avg' name='[avg:Calories:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Protein]' derivation='Avg' name='[avg:Protein:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Item]' derivation='None' name='[none:Item:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1m3vs6r08m8u6417apa460tfcg0n].[none:Item:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.1m3vs6r08m8u6417apa460tfcg0n].[avg:Protein:qk]</rows>
+        <cols>[federated.1m3vs6r08m8u6417apa460tfcg0n].[avg:Calories:qk]</cols>
+      </table>
+      <simple-id uuid='{FACB36BC-7657-407D-8E95-79C552EF2679}' />
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Average Calories per Category</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='menu' name='federated.1m3vs6r08m8u6417apa460tfcg0n' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1m3vs6r08m8u6417apa460tfcg0n'>
+            <column caption='High Calorie Category' datatype='string' name='[Calculation_1782353189826560]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='IF AVG([Calories]) &gt; WINDOW_AVG(AVG([Calories])) THEN&#13;&#10;    &quot;High Calorie&quot;&#13;&#10;ELSE&#13;&#10;    &quot;Not High&quot;&#13;&#10;END'>
+                <table-calc ordering-field='[federated.1m3vs6r08m8u6417apa460tfcg0n].[Category]' ordering-type='Field' />
+              </calculation>
+            </column>
+            <column datatype='integer' name='[Calories]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column-instance column='[Calories]' derivation='Avg' name='[avg:Calories:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1782353189826560]' derivation='User' name='[usr:Calculation_1782353189826560:nk:1]' pivot='key' type='nominal'>
+              <table-calc ordering-field='[federated.1m3vs6r08m8u6417apa460tfcg0n].[Category]' ordering-type='Field' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1m3vs6r08m8u6417apa460tfcg0n].[avg:Calories:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1m3vs6r08m8u6417apa460tfcg0n].[none:Category:nk] / [federated.1m3vs6r08m8u6417apa460tfcg0n].[usr:Calculation_1782353189826560:nk:1])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{758363C8-F250-4E97-9020-3183F0A02D83}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='44264' id='5' name='Sheet 2' w='97077' x='769' y='499' />
+        <zone h='10848' id='6' name='Sheet 4' w='34462' x='-308' y='40524' />
+        <zone h='5362' id='7' name='Sheet 4' pane-specification-id='0' param='[federated.1m3vs6r08m8u6417apa460tfcg0n].[cnt:Item:qk]' type-v2='size' w='21538' x='769' y='44763' />
+        <zone h='7980' id='8' name='Sheet 4' pane-specification-id='0' param='[federated.1m3vs6r08m8u6417apa460tfcg0n].[avg:Calories:qk]' type-v2='color' w='17077' x='16462' y='42020' />
+        <zone h='44389' id='11' name='Sheet 3' w='98769' x='462' y='49751' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='850' minheight='850' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='21' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='20' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='280' h='44264' id='5' is-fixed='true' name='Sheet 2' w='97077' x='769' y='499'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='93' h='10848' id='6' is-fixed='true' name='Sheet 4' w='34462' x='-308' y='40524'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5362' id='7' name='Sheet 4' pane-specification-id='0' param='[federated.1m3vs6r08m8u6417apa460tfcg0n].[cnt:Item:qk]' type-v2='size' w='21538' x='769' y='44763'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7980' id='8' name='Sheet 4' pane-specification-id='0' param='[federated.1m3vs6r08m8u6417apa460tfcg0n].[avg:Calories:qk]' type-v2='color' w='17077' x='16462' y='42020'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='44389' id='11' is-fixed='true' name='Sheet 3' w='98769' x='462' y='49751'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{583AC20B-4522-4BEE-8A52-42F82182B27D}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 2'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='59352' id='3' name='Sheet 5' w='97846' x='615' y='37781' />
+        <zone h='38653' id='4' name='Sheet 6' w='94615' x='2615' y='125' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='10' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='9' param='vert' type-v2='layout-flow' w='97538' x='1231' y='998'>
+                <zone fixed-size='280' h='38653' id='4' is-fixed='true' name='Sheet 6' w='94615' x='2615' y='125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='59352' id='3' is-fixed='true' name='Sheet 5' w='97846' x='615' y='37781'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{ED1259D2-9FEA-4B84-95AE-E063DA1DEF96}' />
+    </dashboard>
+    <dashboard name='Story 1' type='storyboard'>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='830' />
+            <zone h='87863' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='11307'>
+              <flipboard active-id='3' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point captured-sheet='Dashboard 1' id='2' />
+                  <story-point captured-sheet='Dashboard 2' id='3' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{31989B06-09B9-4D91-B106-AB102CC6C048}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='100'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D45D575F-2CFD-4E63-8C37-4C13F03A11DA}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{56A79388-36B7-4BF7-8BAB-F520205B9E3A}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1m3vs6r08m8u6417apa460tfcg0n].[cnt:Item:qk]' type='size' />
+            <card pane-specification-id='0' param='[federated.1m3vs6r08m8u6417apa460tfcg0n].[avg:Calories:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{37AF0D8A-34A5-47B7-8934-36405C644DA0}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{84014836-66BE-47A9-ACA5-0F6DEC34DF06}' />
+    </window>
+    <window class='worksheet' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{80428A33-7DB4-4A70-BA5D-AE589DC4BB49}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 2' />
+        <viewpoint name='Sheet 3' />
+        <viewpoint name='Sheet 4' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{2753FB1D-3BF4-4FB7-A9CA-E8ADCB123497}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 2'>
+      <viewpoints>
+        <viewpoint name='Sheet 5'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 6' />
+      </viewpoints>
+      <active id='4' />
+      <simple-id uuid='{5C7904F1-D944-4607-BC43-B3DEA8A716C4}' />
+    </window>
+    <window class='dashboard' name='Story 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{A0A6C263-459E-43A5-BBB0-6CEF8CAC8C9A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 2' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
